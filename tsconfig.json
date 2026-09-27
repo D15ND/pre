@@ -23,7 +23,8 @@
     "noFallthroughCasesInSwitch": true,
 
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/app*": ["./src/app/*"]
     }
   },
   "exclude": ["node_modules", "dist"]
