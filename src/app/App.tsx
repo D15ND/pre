@@ -1,21 +1,22 @@
-import './styles/globals.css';
+import './styles/index.css';
 
-import { ConfigProvider, Spin } from 'antd';
-import { Suspense } from 'react';
+import { ChakraProvider } from '@chakra-ui/react';
+import { ThemeProvider } from 'next-themes';
 import { Provider } from 'react-redux';
 import { RouterProvider } from 'react-router';
 
+import { system } from '../shared/config';
 import { router } from './providers/routes';
 import { store } from './providers/store/ui/store';
 
 function App() {
   return (
     <Provider store={store}>
-      <ConfigProvider>
-        <Suspense fallback={<Spin size="large" className="spin_fallback" />}>
+      <ThemeProvider attribute="class">
+        <ChakraProvider value={system}>
           <RouterProvider router={router} />
-        </Suspense>
-      </ConfigProvider>
+        </ChakraProvider>
+      </ThemeProvider>
     </Provider>
   );
 }

@@ -1,0 +1,26 @@
+@import url("./variables/global.css");
+
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  font: var(--font-m);
+  color: var(--chakra-colors-brand-fg);
+  background: var(--chakra-bg-page);
+}
+
+.pages {
+  padding: 0 20px;
+}
+
+.spin_fallback {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}

@@ -6,7 +6,7 @@ Redux toolkit
 RTK Query
 react router
 vite
-ant-design
+ChakraUI
 i18n
 FSD - architecture
 
