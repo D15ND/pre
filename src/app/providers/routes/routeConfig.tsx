@@ -1,9 +1,10 @@
-import { ROUTE_PATHS } from './routePaths';
+import RootLayout from '@/app/RootLayout';
+import { ROUTE_PATHS } from '@/shared/config/navigation/routePaths';
 
 export const appRoutes = [
   {
     path: '/',
-    element: <p>RootLayout</p>,
+    element: <RootLayout />,
     errorElement: <p>ErrorBoundary</p>,
     children: [
       { index: true, element: <p>HomePage</p> },

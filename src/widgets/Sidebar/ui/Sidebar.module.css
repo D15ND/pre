@@ -1,0 +1,12 @@
+.sidebar {
+  height: calc(100vh - 144px);
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: var(--chakra-colors-brand-400);
+  border-top-right-radius: var(--chakra-radii-xl);
+  border-bottom-right-radius: var(--chakra-radii-xl);
+  padding: 10px;
+}
