@@ -17,6 +17,9 @@ export default defineConfig({
     sourcemap: false,
   },
   plugins: [react(), svgr()],
+  server: {
+    open: true,
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
