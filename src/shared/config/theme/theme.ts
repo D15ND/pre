@@ -49,6 +49,18 @@ const config = defineConfig({
               _dark: '{colors.brand.950}',
             },
           },
+          modal: {
+            value: {
+              base: '{colors.brand.50}',
+              _dark: '{colors.brand.100}',
+            },
+          },
+          overlay: {
+            value: {
+              base: 'rgba(0, 0, 0, 0.6)',
+              _dark: 'rgba(0, 0, 0, 0.4)',
+            },
+          },
         },
       },
     },

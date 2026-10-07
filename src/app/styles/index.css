@@ -12,7 +12,7 @@ body {
 .app {
   font: var(--font-m);
   color: var(--chakra-colors-brand-fg);
-  background: var(--chakra-bg-page);
+  background: var(--chakra-colors-bg-page);
 }
 
 .pages {
