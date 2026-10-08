@@ -18,3 +18,8 @@
   width: 100%;
   margin-left: auto;
 }
+
+.log_btn {
+  max-width: 72px;
+  width: 100%;
+}

@@ -5,7 +5,7 @@ import { Navigation } from '@/shared/config';
 
 import styles from './Sidebar.module.css';
 
-const Sidebar = () => {
+export const Sidebar = () => {
   return (
     <Box className={styles.sidebar}>
       {Navigation.map(({ title, path }) => (
@@ -16,5 +16,3 @@ const Sidebar = () => {
     </Box>
   );
 };
-
-export default Sidebar;
