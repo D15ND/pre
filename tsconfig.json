@@ -26,7 +26,8 @@
       "@/*": ["./src/*"],
       "@/app*": ["./src/app/*"],
       "@/shared*": ["./src/shared/*"],
-      "@/widgets*": ["./src/widgets/*"]
+      "@/widgets*": ["./src/widgets/*"],
+      "@/pages*": ["./src/pages/*"]
     }
   },
   "exclude": ["node_modules", "dist"]

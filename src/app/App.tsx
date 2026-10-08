@@ -1,4 +1,5 @@
 import './styles/index.css';
+import '@/shared/config/i18n/i18n';
 
 import { ChakraProvider } from '@chakra-ui/react';
 import { ThemeProvider } from 'next-themes';
