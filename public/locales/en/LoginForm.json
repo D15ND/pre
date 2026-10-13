@@ -1,0 +1,7 @@
+{
+  "username_placeholder": "Enter your login",
+  "userpassword_placeholder": "Enter your password",
+  "submit": "login",
+  "title": "Form authorization",
+  "error": "Incorrect user data"
+}

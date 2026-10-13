@@ -3,23 +3,22 @@ import './styles/index.css';
 
 import { ChakraProvider } from '@chakra-ui/react';
 import { ThemeProvider } from 'next-themes';
-import { Provider } from 'react-redux';
 import { RouterProvider } from 'react-router';
 
 import { system } from '@/shared/config';
 
 import { router } from './providers/routes';
-import { store } from './providers/store/ui/store';
+import { StoreProvider } from './providers/StoreProvider';
 
 function App() {
   return (
-    <Provider store={store}>
+    <StoreProvider>
       <ThemeProvider attribute="class">
         <ChakraProvider value={system}>
           <RouterProvider router={router} />
         </ChakraProvider>
       </ThemeProvider>
-    </Provider>
+    </StoreProvider>
   );
 }
 

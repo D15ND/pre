@@ -1,0 +1,16 @@
+.loginform {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+}
+
+.button {
+  max-width: 80px;
+  width: 100%;
+  margin-left: auto;
+}
+
+.error_msg {
+  color: var(--chakra-colors-brand-800);
+}

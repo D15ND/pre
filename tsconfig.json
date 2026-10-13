@@ -27,7 +27,9 @@
       "@/app*": ["./src/app/*"],
       "@/shared*": ["./src/shared/*"],
       "@/widgets*": ["./src/widgets/*"],
-      "@/pages*": ["./src/pages/*"]
+      "@/pages*": ["./src/pages/*"],
+      "@/entities*": ["./src/entities/*"],
+      "@/features*": ["./src/features/*"]
     }
   },
   "exclude": ["node_modules", "dist"]
