@@ -1,0 +1,7 @@
+{
+  "username_placeholder": "Введите ваш логин",
+  "userpassword_placeholder": "Введите ваш пароль",
+  "submit": "Войти",
+  "title": "Форма авторизации",
+  "error": "Неверные данные"
+}
