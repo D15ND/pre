@@ -2,7 +2,7 @@ import { Box, Button, Text } from '@chakra-ui/react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router';
 
-import { ROUTE_PATHS } from '@/shared/config/navigation/routePaths';
+import { ROUTE_PATHS } from '@/app/providers/routes/routePaths';
 
 import styles from './NotFoundPage.module.css';
 

@@ -42,6 +42,8 @@ export const Modal = (props: ModalProps) => {
     };
   }, [isOpen, onKeyDown]);
 
+  if (!isOpen) return null;
+
   return (
     <Portal>
       <Box className={`${styles.modal} ${isOpen ? styles.opened : ''}`}>
