@@ -9,12 +9,19 @@
   ],
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "username": "admin",
       "password": "123"
     }
   ],
   "profile": {
-    "name": "typicode"
+    "firstname": "John",
+    "lastname": "Smith",
+    "age": 32,
+    "currency": "USD",
+    "country": "USA",
+    "city": "Boston",
+    "username": "admin",
+    "avatar": "https://img.magnific.com/free-vector/cute-astronaut-playing-vr-game-with-controller-cartoon-vector-icon-illustration-science-technology_138676-13977.jpg?semt=ais_hybrid&w=740&q=80"
   }
 }

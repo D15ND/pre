@@ -8,7 +8,7 @@ import { loginByUsername } from '../../model/services/loginByUsername/loginByUse
 import { loginActions } from '../../model/slice/loginSlice';
 import styles from './LoginForm.module.css';
 
-export const LoginForm = memo(() => {
+const LoginForm = memo(() => {
   const { t } = useTranslation('LoginForm');
   const dispatch = useDispatch();
   const { username, password, error, isLoading } = useSelector(getLoginState);
@@ -52,3 +52,5 @@ export const LoginForm = memo(() => {
     </Box>
   );
 });
+
+export default LoginForm;
